@@ -1,2 +1,2 @@
-# github
+# git
 helps to read filles
