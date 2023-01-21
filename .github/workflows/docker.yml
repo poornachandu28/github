@@ -7,7 +7,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: poornachandu28/github/image-name
-          registry: docker.io
+          image: poornachandu28/github/cm
           username: poornachandu28
           password: chandu@G123
