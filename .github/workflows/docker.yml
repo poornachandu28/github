@@ -1,0 +1,13 @@
+name: poushing docker image
+on: workflow_dispatch
+jobs:
+  java:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: mr-smithers-excellent/docker-build-push@v5
+        with:
+          image: poornachandu28/github/image-name
+          registry: docker.io
+          username: poornachandu28
+          password: chandu@G123
