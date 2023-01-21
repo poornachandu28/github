@@ -8,5 +8,6 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: poornachandu28/github/cm
+          registry: poornachandu28
           username: poornachandu28
           password: chandu@G123
